@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+form button {
+  display: block;
+  padding: 4px 8px;
+  margin: 16px auto;
+}
+
+form img.wallpaper {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+}
